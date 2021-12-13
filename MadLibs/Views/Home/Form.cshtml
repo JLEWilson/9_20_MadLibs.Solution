@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Dragon Mad Libs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/CSS/styles.css" type="text/css">
+  </head>
+  <body>
+    <h1>Dragon Mad Libs</h1>
+    <div class="container">
+      <h2>Fill in the empty fields to create a custom story</h2>
+      <form action="/madlibs" method="post">
+        <label for="color">Color</label>
+        <input id="color" name="color" type="text" required><br>
+        <label for="supurlative">Superlative (ending in est)</label>
+        <input id="supurlative" name="supurlative" type="text" required><br>
+        <label for="adjective1">Adjective</label>
+        <input id="adjective1" name="adjective1" type="text" required><br>
+        <label for="bodypart1">Body Part (plural)</label>
+        <input id="bodypart1" name="bodypart1" type="text" required><br>
+        <label for="bodypart2">Body Part</label>
+        <input id="bodypart2" name="bodypart2" type="text" required><br>
+        <label for="noun">Noun</label>
+        <input id="noun" name="noun" type="text" required><br>
+        <label for="animal">Animal</label>
+        <input id="animal" name="animal" type="text" required><br>
+        <label for="adjective2">Adjective</label>
+        <input id="adjective2" name="adjective2" type="text" required><br>
+        <label for="adjective3">Adjective</label>
+        <input id="adjective3" name="adjective3" type="text" required><br>
+        <label for="adjective4">Adjective</label>
+        <input id="adjective4" name="adjective4" type="text" required><br>
+        <button type="submit" class="btn btn-dark">Story Time!</button>
+      </div>
+    </form>
+  </body>
+</html>
